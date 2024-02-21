@@ -1,0 +1,58 @@
+//form.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/index.css">
+    <script src="/validation.js"></script>
+    <title>Form Validation</title>
+    <style>
+       h1{
+        text-align: center;
+       }
+       form{
+        border: 1px solid rgb(222, 199, 199);
+        width: 500px;
+        margin: auto;
+        padding: 10px;
+       }
+span{
+    color: red;
+}
+    </style>
+</head>
+<body>
+    <h1>Register Here</h1>
+    <form action="#" method="post" onsubmit="return form()">
+       <table>
+              <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" name="name" id="iname"></td>
+              </tr>
+
+              <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" name="email" id="iemail"></td>
+              </tr> 
+              <tr>
+                <td><label for="phone">Phone:</label></td>
+                <td><input type="number" name="phone" id="iphone">  <span id="phn"></span></td>
+             
+              </tr>
+              <!-- <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" name="password" id="ipassword"></td>
+              </tr>
+              <tr>
+                <td><label for="cpassword">Confirm Password:</label></td>
+                <td><input type="password" name="cpassword" id="icpassword"></td>
+              </tr>  -->
+              <tr>
+                <td><input type="submit" id="btn"></td>
+              </tr>
+       </table>
+
+    </form>
+
+    
+</body>
+</html>
