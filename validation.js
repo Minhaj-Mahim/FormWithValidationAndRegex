@@ -1,6 +1,5 @@
 //validation.js
 
-
 function form(){
     // alert("hello");
     var vname=document.getElementById("iname").value;
